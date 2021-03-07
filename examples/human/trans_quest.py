@@ -28,9 +28,9 @@ sys.path.append('//')
 
 target = TARGET
 
-TRAIN_FILE = "examples/human/data/train_mini.tsv"
-DEV_FILE = "examples/human/data/dev_mini.tsv"
-TEST_FILE = "examples/human/data/test_mini.tsv"
+TRAIN_FILE = "examples/human/data/train.enru.df.len60.tsv"
+DEV_FILE = "examples/human/data/dev.enru.df.len60.tsv"
+TEST_FILE = "examples/human/data/test.enru.df.len60.tsv"
 
 train = read_annotated_file(TRAIN_FILE, index="segid", score=target)
 dev = read_annotated_file(DEV_FILE, index="segid", score=target)
