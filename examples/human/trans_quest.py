@@ -27,7 +27,7 @@ import sys
 sys.path.append('//')
 
 target = TARGET
-
+# real datasets
 TRAIN_FILE = "examples/human/data/train.enru.df.len60.tsv"
 DEV_FILE = "examples/human/data/dev.enru.df.len60.tsv"
 TEST_FILE = "examples/human/data/test.enru.df.len60.tsv"
