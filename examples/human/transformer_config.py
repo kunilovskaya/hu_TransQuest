@@ -8,6 +8,7 @@ SUBMISSION_FILE = "predictions.txt"
 GOOGLE_DRIVE = False
 DRIVE_FILE_ID = "1-VvMh_Pto0idpSm18yfoBfxUT3Orl3DJ"
 # do I see changes?
+# adding more changes
 MODEL_TYPE = "xlmroberta"  # "xlmroberta"
 MODEL_NAME = "xlm-roberta-large"  # "xlm-roberta-large"
 TARGET = 'mean'
