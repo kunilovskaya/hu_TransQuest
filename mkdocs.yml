@@ -1,0 +1,27 @@
+site_name: hu_TransQuest
+
+nav:
+    - Home: index.md
+    - TransQuest Architectures: architectures.md
+    - Pre-trained Models: pretrained.md
+    - Examples: examples.md
+    - Contact: contact.md
+theme: material
+
+icon:
+    repo: fontawesome/brands/github
+repo_url: https://github.com/TharinduDR/hu_TransQuest
+repo_name: tharindudr/hu_TransQuest
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem:
+        smart_enable: all
+extra:
+  generator: false
