@@ -7,8 +7,8 @@ RESULT_IMAGE = "result.jpg"
 SUBMISSION_FILE = "predictions.txt"
 GOOGLE_DRIVE = False
 DRIVE_FILE_ID = "1-VvMh_Pto0idpSm18yfoBfxUT3Orl3DJ"
-MODEL_TYPE = "bert"  # "xlmroberta"
-MODEL_NAME = "bert-base-cased"  # "xlm-roberta-large"
+MODEL_TYPE = "xlmroberta"  # "xlmroberta"
+MODEL_NAME = "xlm-roberta-large"  # "xlm-roberta-large"
 TARGET = 'mean'
 
 transformer_config = {
